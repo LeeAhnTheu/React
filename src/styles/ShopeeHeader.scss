@@ -1,0 +1,66 @@
+.shopee{
+    .back-main{
+        top: 200px;
+    }
+    .nav{
+        .bottom{
+            display: flex;
+            width: 100%;
+            height: 80px;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 10px;
+            input{
+                width: 100%;
+                border: none;
+                border-radius: 2px;
+                padding: 10px;
+            }
+            .buy-btn{
+                color: #fff;
+                border: none;
+                font-size: 30px;
+                margin: 0 20px 0 40px;
+            }
+            .header__logo{
+                align-self: flex-start;
+                margin-right: 40px;
+                img{
+                     width: 150px;
+                }
+            }
+            .search{
+                width: 100%;
+                ul{
+                    display: flex;
+                    margin: 8px 0;
+                    li{
+                        font-size: 0.75em;
+                        margin-right: 10px;
+                    }
+                }
+                form{
+                    display: flex;
+                    height: 42px;
+                    width: 100%;
+                    //width: 100%;
+                    background-color: #fff;
+                    justify-content: space-between;
+                    border-radius: 2px;
+                    border: none;
+                    .search-btn{
+                        background-color: #ee4d2d;
+                        color: #fff;
+                        margin: 3px;
+                        width: 60px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center; 
+                        border: none;
+                        border-radius: 2px;
+                    }
+                }
+            }
+        }
+    }
+}
